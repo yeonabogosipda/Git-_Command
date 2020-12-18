@@ -1,2 +1,2 @@
-# Git-_Command
+# _Command
 Git _Command
