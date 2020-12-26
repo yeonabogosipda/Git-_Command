@@ -26,7 +26,7 @@ $ git checkout --orphan c_YYMMDD_CAMPAIGNNAME
 $ git rm -rf .  
 $ git push origin c_YYMMDD_CAMPAIGNNAME  
 
-// 자주 쓰는 명령어
-$ git remote add origin ""
+// 자주 쓰는 명령어  
+$ git remote add origin ""  
 
 출처: https://webclub.tistory.com/317 [Web Club]  
