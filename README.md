@@ -28,5 +28,7 @@ $ git push origin c_YYMMDD_CAMPAIGNNAME
 
 // 자주 쓰는 명령어  
 $ git remote add origin "주소"  
+$ git remote -v  
+$ git push -f origin master  
 
 출처: https://webclub.tistory.com/317 [Web Club]  
