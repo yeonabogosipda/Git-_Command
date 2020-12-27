@@ -29,6 +29,6 @@ $ git push origin c_YYMMDD_CAMPAIGNNAME
 // 자주 쓰는 명령어  
 $ git remote add origin "주소"  
 $ git remote -v  
-$ git push -f origin master  
+$ git push -f origin master : 원격저장소도 master고 로컬저장소도 master인데 원격저장소에 이력안남을때 로컬에서 강제 푸쉬   
 
 출처: https://webclub.tistory.com/317 [Web Club]  
