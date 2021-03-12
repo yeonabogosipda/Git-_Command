@@ -56,7 +56,7 @@ $ git stash / git stash save “description” : 작업코드 임시저장하고
 $ git stash pop : 마지막으로 임시저장한 작업코드 가져오기   
 $ git branch — set-upstream-to=remote_path/branch_name : git pull no tracking info 에러해결   
 
-$ git cherry-pick <commit_hash_1> <commit_hash_2> ...   
+$ git cherry-pick <commit_hash_1> <commit_hash_2> ... : 일정 범위의 커밋을 가져오는 방법   
 
 출처: https://imasoftwareengineer.tistory.com/7 [삐멜 소프트웨어 엔지니어]   
 출처: https://webclub.tistory.com/317 [Web Club]   
