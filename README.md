@@ -58,5 +58,11 @@ $ git branch — set-upstream-to=remote_path/branch_name : git pull no tracking 
 
 $ git cherry-pick <commit_hash_1> <commit_hash_2> ... : 일정 범위의 커밋을 가져오는 방법   
 
+$ git checkout -b feature/test   
+feature/test > git add .   
+feature/test > git commit -m 'fix typo'   
+*3
+$ git rebase -i @~3   (참고: -i는 --interactive 옵션이고, @~3은 최근 3개의 commit을 rebase하겠다는 뜻이다 HEAD~3과 같은 뜻이다.)
+
 출처: https://imasoftwareengineer.tistory.com/7 [삐멜 소프트웨어 엔지니어]   
 출처: https://webclub.tistory.com/317 [Web Club]   
