@@ -30,6 +30,7 @@ $ git push origin c_YYMMDD_CAMPAIGNNAME
 $ git remote add origin "주소"  
 $ git remote -v  
 $ git push -f origin master :원격저장소도 master고 로컬저장소도 master인데 원격저장소에 이력안남을때 로컬에서 강제 푸쉬   
+$ git push -u origin master : 강제푸쉬   
 
 $ git init : git 생성하기   
 $ git clone git_path : 코드가져오기   
