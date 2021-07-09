@@ -64,5 +64,8 @@ feature/test > git add .
 feature/test > git commit -m 'fix typo'   
 $ git rebase -i @~3   (참고: -i는 --interactive 옵션이고, @~3은 최근 3개의 commit을 rebase하겠다는 뜻이다 HEAD~3과 같은 뜻이다.)   
 
+$ git ls-files | xargs cat | wc -l   
+$ git ls-files | xargs wc -l   
+
 출처: https://imasoftwareengineer.tistory.com/7 [삐멜 소프트웨어 엔지니어]   
 출처: https://webclub.tistory.com/317 [Web Club]   
