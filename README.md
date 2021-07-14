@@ -66,6 +66,11 @@ $ git rebase -i @~3   (참고: -i는 --interactive 옵션이고, @~3은 최근 3
 
 $ git ls-files | xargs cat | wc -l   
 $ git ls-files | xargs wc -l   
+
+$ git remote add "저장소명" "url"   
+$ git remote -v   
+$ git pull 저장소명 +master   
+$ git push 저장소명 +master   
 ```
 출처: https://imasoftwareengineer.tistory.com/7 [삐멜 소프트웨어 엔지니어]   
 출처: https://webclub.tistory.com/317 [Web Club]   
