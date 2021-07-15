@@ -71,6 +71,7 @@ $ git remote add "저장소명" "url"
 $ git remote -v   
 $ git pull 저장소명 +master   
 $ git push 저장소명 +master   
+$ git remote rm 저장소명   
 ```
 출처: https://imasoftwareengineer.tistory.com/7 [삐멜 소프트웨어 엔지니어]   
 출처: https://webclub.tistory.com/317 [Web Club]   
