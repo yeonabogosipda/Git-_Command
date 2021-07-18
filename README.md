@@ -1,4 +1,4 @@
-# _CommandGit
+# :heavy_check_mark:_CommandGit
 :heavy_check_mark: Git _Command
 ```bash
 $ git branch -> 로컬 branch 확인  
