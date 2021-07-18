@@ -1,5 +1,5 @@
 # _CommandGit
-Git _Command
+:heavy_check_mark: Git _Command
 ```bash
 $ git branch -> 로컬 branch 확인  
 $ git branch -r 서버 branch 확인  
