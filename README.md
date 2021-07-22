@@ -66,6 +66,8 @@ $ git rebase -i @~3   (참고: -i는 --interactive 옵션이고, @~3은 최근 3
 
 $ git ls-files | xargs cat | wc -l   
 $ git ls-files | xargs wc -l   
+$ wc -l `find . -name '*.json'`   
+$ find . -name '*.js' | xargs wc -l   
 
 $ git remote add "저장소명" "url"   
 $ git remote -v   
